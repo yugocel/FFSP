@@ -10,6 +10,10 @@ const lists = [
                 title: 'stackX',
                 url: 'https://stackexchange.com/',
             },
+	    {
+                title: 'JavaForum',
+                url: 'https://www.java-forum.org/',
+            },
         ],
     },
     {
