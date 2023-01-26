@@ -32,7 +32,7 @@ const lists = [
                 url: 'https://moodle.th-brandenburg.de/course/index.php?categoryid=31',
             },
 	    {
-                title: 'Prüfung',
+                title: 'exams',
                 url: 'https://www.th-brandenburg.de/studium/pruefungen-und-termine/pruefungsplaene/',
             },
         ],
