@@ -1,28 +1,24 @@
 const lists = [
     {
-        heading: 'dev',
+        heading: 'mail',
         links: [
             {
-                title: 'github',
-                url: 'https://www.github.com/',
-            },
-            {
-                title: 'stackX',
-                url: 'https://stackexchange.com/',
+                title: 'proton',
+                url: 'https://mail.proton.me/u/0/inbox/',
             },
 	    {
-                title: 'JavaForum',
-                url: 'https://www.java-forum.org/',
+                title: 'zimbra',
+                url: 'https://webmail.th-brandenburg.de/#1',
+            },
+	    {
+                title: 'gmail',
+                url: 'https://mail.google.com/mail/u/0/#inbox',
             },
         ],
     },
     {
         heading: 'uni',
         links: [
-            {
-                title: 'zimbra',
-                url: 'https://webmail.th-brandenburg.de/#1',
-            },
             {
                 title: 'weekplan',
                 url: 'https://informatik.th-brandenburg.de/Stundenplan/Plan.htm',
@@ -35,9 +31,9 @@ const lists = [
                 title: 'moodle',
                 url: 'https://moodle.th-brandenburg.de/course/index.php?categoryid=31',
             },
-            {
-                title: 'gmail',
-                url: 'https://mail.google.com/mail/u/0/#inbox',
+	    {
+                title: 'Prüfung',
+                url: 'https://www.th-brandenburg.de/studium/pruefungen-und-termine/pruefungsplaene/',
             },
         ],
     },
@@ -65,26 +61,31 @@ const lists = [
                 title: 'insta',
                 url: 'https://www.instagram.com/',
             },
+	    {
+                title: 'twitch',
+                url: 'https://www.twitch.tv/',
+            },
             {
                 title: 'youtube',
                 url: 'https://www.youtube.com/',
             },
             {
                 title: 'amznprime',
-                url: 'https://www.amazon.de/Amazon-Video/b/?node=3010075031&ref=atv_surl_aiv&redirectToCMP=1'
-            }
+                url: 'https://www.amazon.de/Amazon-Video/b/?node=3010075031&ref=atv_surl_aiv&redirectToCMP=1',
+            },
+		
         ],
     },
     {
-        heading: 'reddit',
+        heading: 'research',
         links: [
             {
-                title: 'r/unixporn',
-                url: 'https://www.reddit.com/r/unixporn/',
+                title: 'stackX',
+                url: 'https://stackexchange.com/',
             },
-            {
-                title: 'r/startpages',
-                url: 'https://www.reddit.com/r/startpages/',
+       	    {
+                title: 'JavaForum',
+                url: 'https://www.java-forum.org/',
             },
             {
                 title: 'r/linuxmemes',
