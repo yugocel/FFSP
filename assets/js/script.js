@@ -49,8 +49,8 @@ const lists = [
                 url: 'https://www.nytimes.com/international/section/world',
             },
             {
-                title: 'twitter',
-                url: 'https://twitter.com/?lang=en',
+                title: 'Golem',
+                url: 'https://www.golem.de/',
             },
         ],
     },
