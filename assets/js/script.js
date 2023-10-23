@@ -45,8 +45,8 @@ const lists = [
                 url: 'https://www.tagesspiegel.de/',
             },
             {
-                title: 'NYT',
-                url: 'https://www.nytimes.com/international/section/world',
+                title: 'n-tv',
+                url: 'https://www.n-tv.de/der_tag/',
             },
             {
                 title: 'Golem',
@@ -58,16 +58,16 @@ const lists = [
         heading: 'media',
         links: [
             {
-                title: 'insta',
-                url: 'https://www.instagram.com/',
+                title: 'youtube',
+                url: 'https://www.youtube.com/',
             },
 	    {
                 title: 'twitch',
                 url: 'https://www.twitch.tv/',
             },
             {
-                title: 'youtube',
-                url: 'https://www.youtube.com/',
+                title: 'inst',
+                url: 'https://www.instagram.com/',
             },
             {
                 title: 'amznprime',
@@ -77,19 +77,19 @@ const lists = [
         ],
     },
     {
-        heading: 'research',
+        heading: 'ctf',
         links: [
             {
-                title: 'stackX',
-                url: 'https://stackexchange.com/',
+                title: 'rootme',
+                url: 'https://www.root-me.org/?page=news&lang=en',
             },
        	    {
-                title: 'JavaForum',
-                url: 'https://www.java-forum.org/',
+                title: 'crackmes',
+                url: 'https://crackmes.one/user/ygxl',
             },
             {
-                title: 'r/linuxmemes',
-                url: 'https://www.reddit.com/r/linuxmemes/',
+                title: 'ctftime',
+                url: 'https://ctftime.org/event/list/',
             },
         ],
     },
