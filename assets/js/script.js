@@ -66,8 +66,8 @@ const lists = [
                 url: 'https://www.twitch.tv/',
             },
             {
-                title: 'inst',
-                url: 'https://www.instagram.com/',
+                title: 'printres',
+                url: 'https://www.pinterest.de/',
             },
             {
                 title: 'amznprime',
