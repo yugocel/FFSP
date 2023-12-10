@@ -29,7 +29,7 @@ const lists = [
             },
             {
                 title: 'moodle',
-                url: 'https://moodle.th-brandenburg.de/course/index.php?categoryid=31',
+                url: 'https://moodle.th-brandenburg.de/my/',
             },
 	    {
                 title: 'exams',
