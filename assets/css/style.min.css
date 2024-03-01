@@ -113,9 +113,9 @@ body {
 .links__link:hover {
 	color: var(--text-hover-color)
 }
-
-@media (max-width: 991.98px) {
-	.box {
+/* @media will determin what is shown based on the device / windowsize */
+@media (max-width: 991.98px) {		/* this one is basicly all the code above */
+	.box {	
 		padding: 20px
 	}
 
@@ -124,7 +124,7 @@ body {
 	}
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 767.98px) { 		/* this one implements another wrapper without the picture */
 	.wrapper {
 		-webkit-box-align: start;
 		-ms-flex-align: start;
