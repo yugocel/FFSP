@@ -1,167 +1,146 @@
 @import url("../fonts/fonts.css");
-
 :root {
-	--bg-color: #2e3440;
-	--text-color: #d8dee9;
-	--accent-color: #7400ff;
-	--text-hover-color: #8c3fe4
+    --bg-color: #000000be;
+    --text-color: #180e41;
+    --accent-color: #ffffff;
+    --text-hover-color: #e3d5ca
 }
 
 *,
 *::before,
 *::after {
-	margin: 0;
-	padding: 0;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
 }
 
 html,
 body {
-	height: 100%
+    height: 100%
 }
 
 body {
-	font-family: 'Fira Mono';
-	color: var(--text-color);
-	background-color: var(--bg-color)
+    font-family: 'Fira Mono';
+    color: var(--text-color);
+    background-color: var(--bg-color)
 }
 
 .wrapper {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-	height: 100%
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%
 }
 
 .box {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	padding: 15px 30px 15px 15px;
-	border: 1px solid var(--text-color)
+    /* the overall box wit the outline */
+    display: flex;
+    align-items: center;
+    padding: 15px 30px 15px 15px;
+    border: 1px solid var(--text-color)
 }
 
 .box__image {
-	margin-right: 30px
+    /* Styles an box for the image */
+    margin-right: 30px
 }
 
 .box__image img {
-	display: block;
-	width: 300px;
-	height: 300px;
-	-o-object-fit: cover;
-	object-fit: cover
+    /* Styles an image within the box_image */
+    display: block;
+    width: 300px;
+    height: 300px;
+    object-fit: cover
 }
 
 .box__title {
-	font-weight: 400;
-	font-size: 28px;
-	margin-bottom: 25px
+    /* Styles the box for the title */
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 25px
 }
 
 .box__links {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex
+    /* Styles the box for the links */
+    display: flex
 }
 
 .links {
-	list-style: none
+    /* Styles an unordered list of links  */
+    list-style: none
 }
 
 .links:not(:last-child) {
-	margin-right: 50px
+    margin-right: 50px
 }
 
 .links__heading {
-	font-size: 18px;
-	color: #88c0d0
+    font-size: 18px;
+    color: #9a6de3
 }
 
 .links__item:first-child {
-	margin-bottom: 10px
+    margin-bottom: 10px
 }
 
 .links__item:not(:first-child) {
-	margin-top: 5px
+    margin-top: 5px
 }
 
 .links__link {
-	font-size: 16px;
-	line-height: 150%;
-	color: inherit;
-	text-decoration: none;
-	-webkit-transition: color 0.2s linear;
-	-o-transition: color 0.2s linear;
-	transition: color 0.2s linear
+    /* Styles the links themselfs */
+    font-size: 16px;
+    line-height: 150%;
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.2s linear
 }
 
 .links__link:hover {
-	color: var(--text-hover-color)
+    color: var(--text-hover-color)
 }
+
+
 /* @media will determin what is shown based on the device / windowsize */
-@media (max-width: 991.98px) {		/* this one is basicly all the code above */
-	.box {	
-		padding: 20px
-	}
 
-	.box__image {
-		display: none
-	}
+@media (max-width: 991.98px) {
+    /* this one is basicly all the code above */
+    .box {
+        padding: 20px
+    }
+    .box__image {
+        display: none
+    }
 }
 
-@media (max-width: 767.98px) { 		/* this one implements another wrapper without the picture */
-	.wrapper {
-		-webkit-box-align: start;
-		-ms-flex-align: start;
-		align-items: start;
-		-webkit-box-pack: start;
-		-ms-flex-pack: start;
-		justify-content: start
-	}
-
-	.box {
-		width: 100%;
-		border: none
-	}
-
-	.box__content {
-		width: 100%
-	}
-
-	.box__links {
-		-ms-flex-wrap: wrap;
-		flex-wrap: wrap
-	}
-
-	.links {
-		-webkit-box-flex: 0;
-		-ms-flex: 0 0 50%;
-		flex: 0 0 50%;
-		margin-bottom: 30px
-	}
-
-	.links:not(:last-child) {
-		margin-right: 0
-	}
+@media (max-width: 767.98px) {
+    /* this one implements another wrapper without the picture */
+    .wrapper {
+        align-items: start;
+        justify-content: start
+    }
+    .box {
+        width: 100%;
+        border: none
+    }
+    .box__content {
+        width: 100%
+    }
+    .box__links {
+        flex-wrap: wrap
+    }
+    .links {
+        flex: 0 0 50%;
+        margin-bottom: 30px
+    }
+    .links:not(:last-child) {
+        margin-right: 0
+    }
 }
 
 @media (max-width: 575.98px) {
-	.box {
-		padding: 15px
-	}
+    .box {
+        padding: 15px
+    }
 }
