@@ -9,7 +9,18 @@
     <link rel="manifest" href="site.webmanifest" />
     <link rel="stylesheet" href="assets/css/style.min.css" />
     <title>Y>gX,+L´s Page</title>
+    <script type="text/javascript">
+        var totalCount = 8;
+
+        function ChangeIt() {
+            var num = Math.ceil(Math.random() * totalCount);
+            document.body.background = 'bgimages/' + num + '.jpg';
+            document.body.style.backgroundRepeat = "repeat"; // Background repeat
+        }
+    </script>
 </head>
+
+<body onload="ChangeIt()"></body>
 
 <body>
     <div class="wrapper">
@@ -18,7 +29,7 @@
                 <img src="assets/images/art.jpg" alt="Abstract art" />
             </div>
             <div class="box__content">
-                <h1 class="box__title">Welcome back, Ronan!</h1>
+                <h1 class="box__title">Welcome back, Skat!</h1>
                 <div id="links" class="box__links"></div>
             </div>
         </div>
