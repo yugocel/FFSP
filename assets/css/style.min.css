@@ -29,7 +29,9 @@ body {
     /* styles the contents of all body elements*/
     font-family: 'Fira Mono';
     color: var(--text-color);
-    background-color: var(--bg-color)
+    background-repeat: repeat;
+    background-size: cover;
+    /*background-color: var(--bg-color)*/
 }
 
 .wrapper {
@@ -170,6 +172,9 @@ body {
 }
 
 @media (max-width: 575.98px) {
+    .body {
+        background-image: url('/bgimages/phonebg.jpg') !important;
+    }
     .box {
         padding: 15px
     }
