@@ -91,6 +91,10 @@ const lists = [
                 title: 'ctftime',
                 url: 'https://ctftime.org/event/list/',
             },
+	    {
+                title: 'github',
+                url: 'https://github.com/',
+            },
         ],
     },
 ]
