@@ -20,12 +20,8 @@ const lists = [
         heading: 'uni',
         links: [
             {
-                title: 'weekplan',
+                title: 'timetable',
                 url: 'https://informatik.th-brandenburg.de/Stundenplan/Plan.htm',
-            },
-            {
-                title: 'calender',
-                url: 'https://calendar.google.com/calendar/u/0/r/week?pli=1',
             },
             {
                 title: 'moodle',
@@ -77,19 +73,19 @@ const lists = [
         ],
     },
     {
-        heading: 'ctf',
+        heading: 'misc',
         links: [
             {
-                title: 'rootme',
-                url: 'https://www.root-me.org/?page=news&lang=en',
+                title: 'check24',
+                url: 'https://kundenbereich.check24.de/index.html',
             },
        	    {
                 title: 'crackmes',
                 url: 'https://crackmes.one/user/ygxl',
             },
             {
-                title: 'ctftime',
-                url: 'https://ctftime.org/event/list/',
+                title: 'ebayKa',
+                url: 'https://www.kleinanzeigen.de/s-14770/l7739',
             },
 	    {
                 title: 'github',
